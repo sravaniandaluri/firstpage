@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+.main .vertical {
+  display: inline;
+}
+.main .vertical h2{
+  margin-top: 0;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+i{
+font-size: 10px;
+}
+.vertical ul {
+  padding-top: 3%;
+}
+.vertical ul li {
+  padding-left: 22%;
+  list-style: none;
+  padding-top: 15%;
+  cursor: pointer;
+}
+.vertical ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+.vertical ul {
+  box-shadow: 0px 0px 0px 2px lightblue;
+  background-color: rgb(14, 14, 105);
+  width: 13%;
+  height: 100%;
+}
+.vertical ul li a:focus{
+  color: red;
+  border-bottom:1px solid green ;
+}
+.horizontal {
+  width: 87%;
+  position: absolute;
+  left: 13%;
+  top: 5%;
+}
+.horizontal ul li {
+  display: inline;
+  padding-left: 5%;
+}
+.horizontal ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.445);
+  font-size: 20px;
+}
+.horizontal ul li a:focus {
+  color: blue;
+  border-bottom: 1px solid blue;
+}
+.horizontal ul {
+  background-color: rgb(245, 244, 239);
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.form {
+  width: 80%;
+  position: absolute;
+  left: 19%;
+  top: 15%;
+  padding-top: 2%;
+}
+.label {
+  padding-right: 30px;
+}
+.label2 {
+  padding-right: 68px;
+}
+.label3 {
+  padding-right: 2%;
+}
+.label4 {
+  padding-right: 78px;
+}
+.radio input {
+  margin-left: 2%;
+}
+.address {
+  width: 80%;
+  position: absolute;
+  left: 19%;
+  top: 38%;
+  display: flex;
+}
+.address .sec-one {
+  padding-right: 68px;
+}
+.address .sec-one input {
+  margin-bottom: 10%;
+}
+.address .sec-two input {
+  margin-bottom: 10%;
+}
+input {
+  outline: none;
+  padding: 2px;
+}
+input:placeholder-shown {
+  opacity: 0.8;
+  font-size: small;
+}
+.button button {
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  border: none;
+  outline: none;
+  background-color: none;
+  border: 2px solid lightblue;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  background-color: lightblue;
+  cursor: pointer;
+}
+/* .name{
+    padding-bottom: 5%;
+} */
